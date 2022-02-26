@@ -1,0 +1,18 @@
+# server configuration
+HOST=localhost
+PORT=5000
+ 
+# node-postgres configuration
+PGUSER=developer
+PGHOST=localhost
+PGPASSWORD=supersecretpassword
+PGDATABASE=notesapp
+PGPORT=5432
+
+# JWT Token
+ACCESS_TOKEN_KEY=ae94c2a8267233145fec8dd2d0fba557147335100ff2dbb8733f555b51dd3f25a6b79149b1c26853aebdfff04bdfa63a744aaaf2732bf344c4885c7b344df2b7
+REFRESH_TOKEN_KEY=cddef813c72ab7738e14f97aa6f31001ff39eb79dfe47dfff904945d9231ac3d6ea151863afddb5496e5f9bbeb3648993b839358b01c9cf11524e376397adcb1
+ACCESS_TOKEN_AGE=1800
+
+# Message broker
+RABBITMQ_SERVER=amqp://localhost
